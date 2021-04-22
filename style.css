@@ -17,7 +17,7 @@
   --width: 20em;
 }
 body{
-  background: var(--bg);
+  background-image: url(images/background.jpeg)important!;
   display: grid;
   place-items: center;
 }
@@ -42,6 +42,7 @@ section{
   width: var(--width);
   background: #fff;
   padding: 20px;
+  
 }
 section h3{
   font-size: calc(var(--width)/10);

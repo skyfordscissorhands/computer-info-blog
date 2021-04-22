@@ -10,10 +10,16 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .column1 {
     flex: 1;
     display: flex;
-    
+    align-items: center;
 
 }
 .img {
